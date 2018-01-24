@@ -6,6 +6,6 @@ foreach ($file in (Get-ChildItem "$ModuleRoot\internal\configurations\*.ps1")) {
 }
 
 # Load Tab Expansion
-foreach ($file in (Get-ChildItem "$ModuleRoot\internal\tepp\*.ps1")) {
+foreach ($file in (Get-ChildItem "$ModuleRoot\internal\tepp\*.ps1" -ErrorAction Ignore)) {
 	. Import-ModuleFile -Path $file.FullName
 }
