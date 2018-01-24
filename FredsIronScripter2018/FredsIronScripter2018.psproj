@@ -1,0 +1,41 @@
+﻿<Project Synchronized="True" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt;*.dll;*.md">
+  <Version>2.0</Version>
+  <FileID>0884bc59-287d-417b-bd26-b04cda289fed</FileID>
+  <ProjectType>1</ProjectType>
+  <Folders>
+    <Folder>bin</Folder>
+    <Folder>en-us</Folder>
+    <Folder>functions</Folder>
+    <Folder>internal</Folder>
+    <Folder>internal\configurations</Folder>
+    <Folder>internal\functions</Folder>
+    <Folder>internal\scripts</Folder>
+    <Folder>internal\tepp</Folder>
+    <Folder>tests</Folder>
+    <Folder>xml</Folder>
+    <Folder>tests\functions</Folder>
+    <Folder>tests\general</Folder>
+    <Folder>functions\2018-01-14-Prequel-01</Folder>
+    <Folder>snippets</Folder>
+  </Folders>
+  <Files>
+    <File Build="2">FredsIronScripter2018.psd1</File>
+    <File Build="0">FredsIronScripter2018.psm1</File>
+    <File Build="2">en-us\about_FredsIronScripter2018.help.txt</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-preimport_ps1">internal\scripts\preimport.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-postimport_ps1">internal\scripts\postimport.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-pester_ps1">tests\pester.ps1</File>
+    <File Build="2">tests\readme.md</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-example-configuration_ps1">internal\configurations\example-configuration.ps1</File>
+    <File Build="2">tests\functions\readme.md</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-FileIntegrity_Exceptions_ps1">tests\general\FileIntegrity.Exceptions.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-FileIntegrity_Tests_ps1">tests\general\FileIntegrity.Tests.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Help_Exceptions_ps1">tests\general\Help.Exceptions.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Help_Tests_ps1">tests\general\Help.Tests.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Manifest_Tests_ps1">tests\general\Manifest.Tests.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-PSScriptAnalyzer_Tests_ps1">tests\general\PSScriptAnalyzer.Tests.ps1</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Get-FISMonitor_ps1">functions\2018-01-14-Prequel-01\Get-FISMonitor.ps1</File>
+    <File Build="2">xml\FredsIronScripter2018.format.ps1xml</File>
+  </Files>
+  <StartupScript>F:\Code\Github\FredsIronScripter2018\FredsIronScripter2018\FredsIronScripter2018.psm1</StartupScript>
+</Project>

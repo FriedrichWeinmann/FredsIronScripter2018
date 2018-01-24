@@ -1,0 +1,26 @@
+﻿TOPIC
+	about_FredsIronScripter2018
+	
+SHORT DESCRIPTION
+	This module is a collection of solutions to the Iron Scripter Challenge.
+	
+LONG DESCRIPTION
+	#------------------------------------------------------------------------#
+	#                                Summary                                 #
+	#------------------------------------------------------------------------#
+	
+	This module is a collection of solutions to the Iron Scripter Challenge.
+	Since each function constitutes an individual issue, there is little point
+	going into further detail on each function here, but to list them by
+	challenge
+	
+	
+	#------------------------------------------------------------------------#
+	#                                Prequels                                #
+	#------------------------------------------------------------------------#
+	
+	2018-01-14 Prequel 1:
+	 - Get-FISMonitor
+
+KEYWORDS
+	FredsIronScripter2018

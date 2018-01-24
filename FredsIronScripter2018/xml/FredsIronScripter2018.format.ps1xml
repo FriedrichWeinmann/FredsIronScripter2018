@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<Configuration>
+	<ViewDefinitions>
+		<!-- Fred.IronScripter2018.Monitor -->
+		<View>
+			<Name>Fred.IronScripter2018.Monitor</Name>
+			<ViewSelectedBy>
+				<TypeName>Fred.IronScripter2018.Monitor</TypeName>
+			</ViewSelectedBy>
+			<TableControl>
+				<AutoSize/>
+				<TableHeaders>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+				</TableHeaders>
+				<TableRowEntries>
+					<TableRowEntry>
+						<TableColumnItems>
+							<TableColumnItem>
+								<PropertyName>ComputerName</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>ComputerType</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>ComputerSerial</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>MonitorSerial</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>MonitorType</PropertyName>
+							</TableColumnItem>
+						</TableColumnItems>
+					</TableRowEntry>
+				</TableRowEntries>
+			</TableControl>
+		</View>
+	</ViewDefinitions>
+</Configuration>
