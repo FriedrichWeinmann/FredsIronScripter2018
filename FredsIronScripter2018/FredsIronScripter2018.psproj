@@ -17,6 +17,8 @@
     <Folder>tests\general</Folder>
     <Folder>functions\2018-01-14-Prequel-01</Folder>
     <Folder>snippets</Folder>
+    <Folder>bin\netstandard2.0</Folder>
+    <Folder>functions\2018-01-21-Prequel-02</Folder>
   </Folders>
   <Files>
     <File Build="2">FredsIronScripter2018.psd1</File>
@@ -36,6 +38,9 @@
     <File Build="2" Shared="True" ReferenceFunction="Invoke-PSScriptAnalyzer_Tests_ps1">tests\general\PSScriptAnalyzer.Tests.ps1</File>
     <File Build="2" Shared="True" ReferenceFunction="Invoke-Get-FISMonitor_ps1">functions\2018-01-14-Prequel-01\Get-FISMonitor.ps1</File>
     <File Build="2">xml\FredsIronScripter2018.format.ps1xml</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-license_ps1">internal\scripts\license.ps1</File>
+    <File Build="2">xml\FredsIronScripter2018.types.ps1xml</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Get-FISSystemInformation_ps1">functions\2018-01-21-Prequel-02\Get-FISSystemInformation.ps1</File>
   </Files>
   <StartupScript>F:\Code\Github\FredsIronScripter2018\FredsIronScripter2018\FredsIronScripter2018.psm1</StartupScript>
 </Project>

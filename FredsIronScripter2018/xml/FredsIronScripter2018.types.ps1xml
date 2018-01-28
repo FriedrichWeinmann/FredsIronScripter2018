@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Types>
+  <!-- Fred.IronScripter2018.DiskInfo -->
+  <Type>
+    <Name>Deserialized.Fred.IronScripter2018.DiskInfo</Name>
+    <Members>
+      <MemberSet>
+        <Name>PSStandardMembers</Name>
+        <Members>
+          <NoteProperty>
+            <Name>
+              TargetTypeForDeserialization
+            </Name>
+            <Value>
+              Fred.IronScripter2018.DiskInfo
+            </Value>
+          </NoteProperty>
+        </Members>
+      </MemberSet>
+    </Members>
+  </Type>
+  <Type>
+    <Name>Fred.IronScripter2018.DiskInfo</Name>
+    <Members>
+      <CodeProperty IsHidden="true">
+        <Name>SerializationData</Name>
+        <GetCodeReference>
+          <TypeName>PSFramework.Serialization.SerializationTypeConverter</TypeName>
+          <MethodName>GetSerializationData</MethodName>
+        </GetCodeReference>
+      </CodeProperty>
+    </Members>
+    <TypeConverter>
+      <TypeName>PSFramework.Serialization.SerializationTypeConverter</TypeName>
+    </TypeConverter>
+  </Type>
+
+  <!-- Fred.IronScripter2018.Monitor -->
+  <Type>
+    <Name>Deserialized.Fred.IronScripter2018.Monitor</Name>
+    <Members>
+      <MemberSet>
+        <Name>PSStandardMembers</Name>
+        <Members>
+          <NoteProperty>
+            <Name>
+              TargetTypeForDeserialization
+            </Name>
+            <Value>
+              Fred.IronScripter2018.Monitor
+            </Value>
+          </NoteProperty>
+        </Members>
+      </MemberSet>
+    </Members>
+  </Type>
+  <Type>
+    <Name>Fred.IronScripter2018.Monitor</Name>
+    <Members>
+      <CodeProperty IsHidden="true">
+        <Name>SerializationData</Name>
+        <GetCodeReference>
+          <TypeName>PSFramework.Serialization.SerializationTypeConverter</TypeName>
+          <MethodName>GetSerializationData</MethodName>
+        </GetCodeReference>
+      </CodeProperty>
+    </Members>
+    <TypeConverter>
+      <TypeName>PSFramework.Serialization.SerializationTypeConverter</TypeName>
+    </TypeConverter>
+  </Type>
+
+  <!-- Fred.IronScripter2018.SystemInformation -->
+  <Type>
+    <Name>Deserialized.Fred.IronScripter2018.SystemInformation</Name>
+    <Members>
+      <MemberSet>
+        <Name>PSStandardMembers</Name>
+        <Members>
+          <NoteProperty>
+            <Name>
+              TargetTypeForDeserialization
+            </Name>
+            <Value>
+              Fred.IronScripter2018.SystemInformation
+            </Value>
+          </NoteProperty>
+        </Members>
+      </MemberSet>
+    </Members>
+  </Type>
+  <Type>
+    <Name>Fred.IronScripter2018.SystemInformation</Name>
+    <Members>
+      <CodeProperty IsHidden="true">
+        <Name>SerializationData</Name>
+        <GetCodeReference>
+          <TypeName>PSFramework.Serialization.SerializationTypeConverter</TypeName>
+          <MethodName>GetSerializationData</MethodName>
+        </GetCodeReference>
+      </CodeProperty>
+    </Members>
+    <TypeConverter>
+      <TypeName>PSFramework.Serialization.SerializationTypeConverter</TypeName>
+    </TypeConverter>
+  </Type>
+</Types>

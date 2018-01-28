@@ -1,6 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-16"?>
 <Configuration>
 	<ViewDefinitions>
+		<!-- Fred.IronScripter2018.DiskInfo -->
+		<View>
+			<Name>Fred.IronScripter2018.DiskInfo</Name>
+			<ViewSelectedBy>
+				<TypeName>Fred.IronScripter2018.DiskInfo</TypeName>
+			</ViewSelectedBy>
+			<TableControl>
+				<AutoSize/>
+				<TableHeaders>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader>
+						<Alignment>Right</Alignment>
+						<Label>UsedPercent</Label>
+					</TableColumnHeader>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+				</TableHeaders>
+				<TableRowEntries>
+					<TableRowEntry>
+						<TableColumnItems>
+							<TableColumnItem>
+								<PropertyName>Drive</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>DriveType</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<ScriptBlock>
+									"{0:N2}" -f [math]::Round($_.UsedPercent, 2)
+                                </ScriptBlock>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Size</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>FreeSpace</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Compressed</PropertyName>
+							</TableColumnItem>
+						</TableColumnItems>
+					</TableRowEntry>
+				</TableRowEntries>
+			</TableControl>
+		</View>
+		
 		<!-- Fred.IronScripter2018.Monitor -->
 		<View>
 			<Name>Fred.IronScripter2018.Monitor</Name>
@@ -33,6 +81,57 @@
 							</TableColumnItem>
 							<TableColumnItem>
 								<PropertyName>MonitorType</PropertyName>
+							</TableColumnItem>
+						</TableColumnItems>
+					</TableRowEntry>
+				</TableRowEntries>
+			</TableControl>
+		</View>
+		
+		<!-- Fred.IronScripter2018.SystemInformation -->
+		<View>
+			<Name>Fred.IronScripter2018.SystemInformation</Name>
+			<ViewSelectedBy>
+				<TypeName>Fred.IronScripter2018.SystemInformation</TypeName>
+			</ViewSelectedBy>
+			<TableControl>
+				<AutoSize/>
+				<TableHeaders>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+					<TableColumnHeader/>
+				</TableHeaders>
+				<TableRowEntries>
+					<TableRowEntry>
+						<TableColumnItems>
+							<TableColumnItem>
+								<PropertyName>ComputerName</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Name</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Version</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Locale</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>FreePhysicalMemory</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>VirtualMemory</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>FreeVirtualMemory</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Disks</PropertyName>
 							</TableColumnItem>
 						</TableColumnItems>
 					</TableRowEntry>
