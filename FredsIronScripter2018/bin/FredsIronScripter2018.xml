@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FredsIronScripter2018</name>
+    </assembly>
+    <members>
+        <member name="T:Fred.IronScripter2018.DiskInfo">
+            <summary>
+            Class containing information on a disk
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.DiskInfo.ComputerName">
+            <summary>
+            The name of the computer the disk is installed on
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.DiskInfo.Drive">
+            <summary>
+            The ID of the drive
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.DiskInfo.DriveType">
+            <summary>
+            What kind of drive is it?
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.DiskInfo.Size">
+            <summary>
+            What is the maximum capacity of this drive
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.DiskInfo.FreeSpace">
+            <summary>
+            How much free space is still available?
+            </summary>
+        </member>
+        <member name="P:Fred.IronScripter2018.DiskInfo.UsedPercent">
+            <summary>
+            How much percent of the space is still in use?
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.DiskInfo.Compressed">
+            <summary>
+            Is the disk compressed?
+            </summary>
+        </member>
+        <member name="M:Fred.IronScripter2018.DiskInfo.ToString">
+            <summary>
+            Creates the default drive display when as a property on another object
+            </summary>
+            <returns>The string representation of the drive</returns>
+        </member>
+        <member name="T:Fred.IronScripter2018.Monitor">
+            <summary>
+            Class containing information on a monitor
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.Monitor.ComputerName">
+            <summary>
+            The name of the computer
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.Monitor.ComputerType">
+            <summary>
+            The type of the computer
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.Monitor.ComputerSerial">
+            <summary>
+            The bios serial number, uniquely identifying the hardware
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.Monitor.MonitorSerial">
+            <summary>
+            Monitor serial number
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.Monitor.MonitorType">
+            <summary>
+            Monitor model type
+            </summary>
+        </member>
+        <member name="T:Fred.IronScripter2018.SystemInformation">
+            <summary>
+            Information on a computer
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.ComputerName">
+            <summary>
+            The name of the computer it is installed on.
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.Name">
+            <summary>
+            Name of the OS
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.Version">
+            <summary>
+            Version of the OS
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.ServicePack">
+            <summary>
+            Installed Service Pack
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.Manufacturer">
+            <summary>
+            Manufacturer of the OS
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.WindowsDirectory">
+            <summary>
+            Path where windows lies.
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.Locale">
+            <summary>
+            What locale the system is running under
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.FreePhysicalMemory">
+            <summary>
+            The amount of physical memory still available
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.VirtualMemory">
+            <summary>
+            The total virtual memory available
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.FreeVirtualMemory">
+            <summary>
+            The free amount of virtual memory still available
+            </summary>
+        </member>
+        <member name="F:Fred.IronScripter2018.SystemInformation.Disks">
+            <summary>
+            The disks installed on the system.
+            </summary>
+        </member>
+    </members>
+</doc>
