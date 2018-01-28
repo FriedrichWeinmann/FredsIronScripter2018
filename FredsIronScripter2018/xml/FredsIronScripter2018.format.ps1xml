@@ -12,7 +12,10 @@
 				<TableHeaders>
 					<TableColumnHeader/>
 					<TableColumnHeader/>
-					<TableColumnHeader/>
+					<TableColumnHeader>
+						<Alignment>Right</Alignment>
+						<Label>UsedPercent</Label>
+					</TableColumnHeader>
 					<TableColumnHeader/>
 					<TableColumnHeader/>
 					<TableColumnHeader/>
@@ -21,13 +24,15 @@
 					<TableRowEntry>
 						<TableColumnItems>
 							<TableColumnItem>
-								<PropertyName>ComputerName</PropertyName>
-							</TableColumnItem>
-							<TableColumnItem>
 								<PropertyName>Drive</PropertyName>
 							</TableColumnItem>
 							<TableColumnItem>
 								<PropertyName>DriveType</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<ScriptBlock>
+									"{0:N2}" -f [math]::Round($_.UsedPercent, 2)
+                                </ScriptBlock>
 							</TableColumnItem>
 							<TableColumnItem>
 								<PropertyName>Size</PropertyName>

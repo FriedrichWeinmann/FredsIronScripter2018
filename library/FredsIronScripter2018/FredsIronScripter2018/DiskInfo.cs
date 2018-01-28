@@ -40,7 +40,9 @@ namespace Fred.IronScripter2018
         {
             get
             {
-                return (Size - FreeSpace) / Size * 100;
+                if (Size == 0)
+                    return 100;
+                return ((double)Size - (double)FreeSpace) / (double)Size * 100;
             }
             set
             {

@@ -96,15 +96,15 @@
 			
 			$systemInfo = New-Object Fred.IronScripter2018.SystemInformation -Property @{
 				ComputerName       = $Computer.ComputerName
-				Name		       = $operatingSystem.Name
+				Name		       = $operatingSystem.Caption
 				Version	           = $operatingSystem.Version
 				ServicePack        = "{0}.{1}" -f $operatingSystem.ServicePackMajorVersion, $operatingSystem.ServicePackMinorVersion
 				Manufacturer       = $operatingSystem.Manufacturer
 				WindowsDirectory   = $operatingSystem.WindowsDirectory
 				Locale		       = $operatingSystem.Locale
-				FreePhysicalMemory = $operatingSystem.FreePhysicalMemory
-				VirtualMemory      = $operatingSystem.TotalVirtualMemorySize
-				FreeVirtualMemory  = $operatingSystem.FreeVirtualMemory
+				FreePhysicalMemory = $operatingSystem.FreePhysicalMemory * 1024 # Comes in KB
+				VirtualMemory      = $operatingSystem.TotalVirtualMemorySize * 1024 # Comes in KB
+				FreeVirtualMemory  = $operatingSystem.FreeVirtualMemory * 1024 # Comes in KB
 			}
 			
 			foreach ($disk in $disks)
