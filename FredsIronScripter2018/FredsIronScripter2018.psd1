@@ -4,7 +4,7 @@
 	RootModule = 'FredsIronScripter2018.psm1'
 	
 	# Version number of this module.
-	ModuleVersion = '1.0.0.0'
+	ModuleVersion = '1.2.0.10'
 	
 	# ID used to uniquely identify this module
 	GUID = '0884bc59-287d-417b-bd26-b04cda289fed'
@@ -22,7 +22,7 @@
 	Description = 'Code regarding the Iron Scripter 2018 competition'
 	
 	# Minimum version of the Windows PowerShell engine required by this module
-	PowerShellVersion = '3.0'
+	PowerShellVersion = '5.0'
 	
 	# Name of the Windows PowerShell host required by this module
 	PowerShellHostName = ''
@@ -41,17 +41,17 @@
 	
 	# Modules that must be imported into the global environment prior to importing
 	# this module
-	RequiredModules = @(@{ ModuleName = 'PSFramework'; ModuleVersion = '0.9.8.17' })
+	RequiredModules = @(@{ ModuleName = 'PSFramework'; ModuleVersion = '0.9.9.19' })
 	
 	# Assemblies that must be loaded prior to importing this module
-	RequiredAssemblies = @()
+	RequiredAssemblies =  @('bin\FredsIronScripter2018.dll')
 	
 	# Script files (.ps1) that are run in the caller's environment prior to
 	# importing this module
 	ScriptsToProcess = @()
 	
 	# Type files (.ps1xml) to be loaded when importing this module
-	TypesToProcess = @()
+	TypesToProcess = @('xml\FredsIronScripter2018.types.ps1xml')
 	
 	# Format files (.ps1xml) to be loaded when importing this module
 	FormatsToProcess = @('xml\FredsIronScripter2018.format.ps1xml')
@@ -62,7 +62,8 @@
 	
 	# Functions to export from this module
 	FunctionsToExport	    = @(
-		'Get-FISMonitor'
+		'Get-FISMonitor',
+		'Get-FISSystemInformation'
 	)
 	
 	# Cmdlets to export from this module

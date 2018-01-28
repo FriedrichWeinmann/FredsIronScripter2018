@@ -20,7 +20,6 @@
 x64/
 x86/
 bld/
-[Bb]in/
 [Oo]bj/
 [Ll]og/
 
@@ -300,3 +299,4 @@ __pycache__/
 
 # PowerShell Studio
 *.temppoint.*
+FredsIronScripter2018/FredsIronScripter2018.psprojs

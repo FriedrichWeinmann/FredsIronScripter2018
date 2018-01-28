@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<OutputPath>..\..\..\FredsIronScripter2018\bin</OutputPath>
+    <DocumentationFile>..\..\..\FredsIronScripter2018\bin\FredsIronScripter2018.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
